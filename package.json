@@ -5,8 +5,7 @@
   "main": "upload.js",
   "type": "module",
   "scripts": {
-    "start": "node upload.js",
-    "dev": "nodemon upload.js"
+    "start": "node upload.js"
   },
   "author": "Raivis Zelcs",
   "license": "ISC",
@@ -16,7 +15,6 @@
     "node-cron": "^3.0.3"
   },
   "devDependencies": {
-    "express": "^4.19.2",
-    "nodemon": "^3.1.3"
+    "express": "^4.19.2"
   }
 }
