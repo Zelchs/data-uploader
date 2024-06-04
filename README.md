@@ -16,7 +16,7 @@ data_uploader/
 
 ## Requirements
 
-- Node.js
+- Node.js installed.
 - Google Service Account JSON key file (`preferably name it as -> keys.json`)
 - Google Sheets API enabled
 
@@ -25,7 +25,7 @@ data_uploader/
 1. **Clone the repository**:
 
    ```sh
-   git clone https://github.com/your-repo/data_uploader.git
+   git clone https://github.com/Zelchs/data_uploader.git
    cd data_uploader
    ```
 
