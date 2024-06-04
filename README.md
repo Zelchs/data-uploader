@@ -42,10 +42,10 @@ data_uploader/
    ```sh
     SPREADSHEET_ID=your_spreadsheet_id
     SHEET_NAME=your_sheet_name
-    PORT=app_port
+    PORT=8000
    ```
 
-4. **Add your 'keys.json' file to the root directory. If filed is named differently, add it to .gitignore and change const CREDENTIALS_FILE value to match your file name**:
+4. **Download credentials file from service account, select JSON. Rename file to 'keys.json' and add file to the root directory. If file is named differently, add file name to .gitignore and change const CREDENTIALS_FILE value in upload.js to match your file name**:
 
 ## Usage
 
