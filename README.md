@@ -4,15 +4,17 @@ A Node.js application to periodically upload data to a specified Google Sheet us
 
 ## Project Structure
 
+```
 data_uploader/
-├── node_modules/
-├── .env
-├── .gitignore
+├── node_modules/\n
+├── .env\n
+├── .gitignore\n
 ├── keys.json
 ├── package-lock.json
 ├── package.json
 ├── README.md
 └── upload.js
+```
 
 ## Requirements
 
