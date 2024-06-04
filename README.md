@@ -29,7 +29,7 @@ data_uploader/
 
    ```sh
    git clone https://github.com/Zelchs/data-uploader.git
-   cd data_uploader
+   cd data-uploader
    ```
 
 2. **Install dependenies**:
