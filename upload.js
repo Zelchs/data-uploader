@@ -2,6 +2,8 @@ import dotenv from 'dotenv';
 import express from 'express';
 import { google } from 'googleapis';
 import cron from 'node-cron';
+// import test-data from external resource
+import { testData } from './testData';
 
 dotenv.config();
 
@@ -12,41 +14,6 @@ const CREDENTIALS_FILE = 'keys.json';
 
 // Environment variables for spreadsheet and server configuration.
 const { SPREADSHEET_ID, SHEET_NAME, PORT } = process.env;
-
-// Example data to be uploaded to Google spreadsheets
-const testData = [
-  {
-    Name: 'TestName1',
-    LastName: 'TestLastName1',
-    Age: '20',
-    UserID: '114546767',
-  },
-  {
-    Name: 'TestName2',
-    LastName: 'TestLastName2',
-    Age: '25',
-    UserID: '224557678',
-    Comment: 'New client',
-  },
-  {
-    Name: 'TestName3',
-    LastName: 'TestLastName3',
-    Age: '28',
-    UserID: '336787987',
-  },
-  {
-    Name: 'TestName4',
-    LastName: 'TestLastName4',
-    Age: '19',
-    UserID: '446567887',
-  },
-  {
-    Name: 'TestName5',
-    LastName: 'TestLastName5',
-    Age: '43',
-    UserID: '555686678',
-  },
-];
 
 // Authorizes Google Sheets API using service account credentials.
 const authorize = async () => {
