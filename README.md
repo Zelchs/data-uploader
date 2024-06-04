@@ -6,9 +6,9 @@ A Node.js application to periodically upload data to a specified Google Sheet us
 
 ```
 data_uploader/
-├── node_modules/\n
-├── .env\n
-├── .gitignore\n
+├── node_modules/
+├── .env
+├── .gitignore
 ├── keys.json
 ├── package-lock.json
 ├── package.json
