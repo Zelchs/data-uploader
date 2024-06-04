@@ -3,7 +3,7 @@ import express from 'express';
 import { google } from 'googleapis';
 import cron from 'node-cron';
 // import test-data from external resource
-import { testData } from './testData';
+import { testData } from './testData.js';
 
 dotenv.config();
 
